@@ -105,6 +105,104 @@ p {
   line-height: 1.5;
 }
 
+/*  About  */
+#about {
+  background-color: #CBD5E7;
+  color: #000000;
+  padding: 3% 20%;
+}
+
+.intro-heading {
+  font-family: 'Archivo';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* gif */
+.no-gif, .effect:hover .gif{
+  display: flex;
+}
+.gif, .effect:hover .no-gif{
+  display: none;
+}
+
+.row_3D {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_3D > img{
+    width: 20%;       /* make every item the same width */
+}
+
+#work3D {
+  background-color: #CBD5E7;
+  color: #000000;
+  padding: 3% 5%;
+}
+
+.row_3D > img {
+    height: auto;
+}
+
+/*  video sect  */
+.video-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 5%;          /* space between video and text */
+    margin-bottom: 60px;
+}
+
+.video-item video {
+    width: 35%;
+    min-width: 300px;
+}
+
+.video-info {
+    flex: 1;
+}
+
+.video-info h3,
+.video-info h4,
+.video-info p {
+    margin-top: 0;
+}
+
+
+/*  photography sect  */
+.photo-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.photo-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.photo-column img {
+    width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+    .photo-column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .photo-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
 
 /*  Title Image  */
 
@@ -195,7 +293,7 @@ p {
 /*Footer Section*/
 
 #footer {
-  padding: 7% 15%;
+  padding: 3% 15%;
   text-align: center;
 }
 
